@@ -12,7 +12,7 @@
     }
 
     .hero {
-      background-image: url('Hero.JPG'); /* Gambar latar belakang */
+      background-image: url('images/banner.jpg'); /* Gambar latar belakang */
       background-size: cover;
       background-position: center;
       min-height: 100vh;
@@ -23,6 +23,7 @@
       color: white;
       text-shadow: 2px 2px 5px #000;
       padding: 40px 20px;
+      text-align: center;
     }
 
     .hero h1 {
@@ -36,7 +37,6 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
-      text-align: center;
     }
 
     .hero ul li a {
@@ -47,12 +47,21 @@
       border-radius: 10px;
       font-size: 22px;
       transition: 0.3s;
-      display: inline-block;
     }
 
     .hero ul li a:hover {
       background-color: rgba(255, 255, 255, 0.2);
       transform: scale(1.05);
+    }
+
+    .hero .description {
+      margin-top: 40px;
+      font-size: 18px;
+      max-width: 600px;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 15px 20px;
+      border-radius: 10px;
+      line-height: 1.6;
     }
 
     @media (min-width: 600px) {
@@ -71,6 +80,10 @@
       <li><a href="bike.html">Kategori Basikal</a></li>
       <li><a href="finish.html">Kategori Penamat</a></li>
     </ul>
+    <div class="description">
+      Selamat datang! Semua gambar dirakam semasa Powerman Malaysia 2025. Cari gambar anda, salin kod gambar, dan hubungi saya melalui WhatsApp untuk tempahan.<br>
+      <strong>Gambar preview ada watermark – fail tanpa watermark selepas pembelian.</strong>
+    </div>
   </div>
 
 </body>
